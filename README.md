@@ -21,17 +21,22 @@ Semantic naming attempts to resolve these issues.
 ## Quick examples
 
 ```bash
-# Blog website made with Jekyll
+# Websites
 semgit/semgit-web-jekyll-blog
+semgit/semgit-web-ghost-developer-blog
+semgit/semgit-web-corporate-website
 
-# Blog website made with Ghost
-semgit/semgit-web-ghost-blog
+# Node applications
+semgit/semgit-node-deployment-cli
+semgit/semgit-node-web-server
 
-# Command line for Node.js
-semgit/semgit-node-cli
+# Go applications
+semgit/semgit-go-public-api
+semgit/semgit-go-private-api
 
-# API backend written in Go
-semgit/semgit-go-api
+# Yeoman generators
+semgit/semgit-yeoman-generator-contract
+semgit/semgit-yeoman-generator-web-application
 ```
 
 ## The PREFIX part
@@ -95,14 +100,37 @@ The target identifies the target platform or audience for the repository.
 
 Use a short string to identify the target.
 
-Examples:
+A few examples:
 
-- web: website
-- node: Node.js application
-- go: go application
-- spec: specification
+| Target name | Target description   |
+| --- | --- |
+| angular | Angular library |
+| docs | Documentation |
+| go | Go application |
+| less | LESS stylesheets |
+| node | Node.js application |
+| sass | Sass stylesheets |
+| spec | Official specificiation |
+| web | Website |
 
 ## The DESCRIPTION part
+
+### What?
+
+The description part describes the main contents of the repository.
+
+### Why?
+
+- identify the repository
+
+### How?
+
+Use a string to identify the main contents. Try to use a name that is not dependent on external factors:
+
+**bad**: `semgit-web-www-semgit-org`
+**good**: `semgit-web-corporate-website`
+
+The reason `www-semgit-org` is bad is because it may require a Git repository name change when the url of the website changes. Use a name that is not likely to change when external factors (such as a URL) change.
 
 
 
