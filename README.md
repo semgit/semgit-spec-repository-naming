@@ -157,6 +157,10 @@ When searching for "semgit.org" in GitHub, the correct repository will shop up. 
 
 The SemGit specification is authored by [Jurgen Van de Moere](http://www.jvandemo.com).
 
+Contributors:
+
+- [Stefan Lapers](http://stefan.lapers.be/)
+
 If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/semgit/semgit-spec-repositories/issues).
 
 ## License
