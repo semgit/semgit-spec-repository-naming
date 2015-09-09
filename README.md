@@ -127,8 +127,8 @@ The description part describes the main contents of the repository.
 
 Use a string to identify the main contents. Try to use a name that is not dependent on external factors:
 
-**bad**: `semgit-web-www-semgit-org`
-**good**: `semgit-web-corporate-website`
+- **bad**: `semgit-web-www-semgit-org`
+- **good**: `semgit-web-corporate-website`
 
 The reason `www-semgit-org` is bad is because it may require a Git repository name change when the url of the website changes. Use a name that is not likely to change when external factors (such as a URL) change.
 
