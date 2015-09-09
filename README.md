@@ -26,39 +26,36 @@ Only lowercase characters and hyphens are used.
 
 #### Without SemGit
 
+Repositories are hard to identify for people that didn't create them:
+
 ```bash
-# Websites
 blog
-blog-2
-website
-
-# Node applications
-deploymentcli
-web_server
-
-# Go applications
-public-api
-private-api
-
-# WinRT application
+blog-1
 clientApplication
+deploymentcli
+private-api
+public-api
+website
+web_server
 ```
 
-With SemGit
+#### With SemGit
+
+Repositories are easier to identify and can be sorted alphabetically to group them:
 
 ```bash
-# Websites
-semgit-web-jekyll-blog
-semgit-web-ghost-developer-blog
-semgit-web-corporate-website
+# Go applications
+semgit-go-private-api
+semgit-go-public-api
 
 # Node applications
 semgit-node-deployment-cli
 semgit-node-web-server
 
-# Go applications
-semgit-go-public-api
-semgit-go-private-api
+# Websites
+semgit-web-ghost-developer-blog
+semgit-web-corporate-website
+semgit-web-jekyll-blog
 
 # WinRT application
 semgit-winrt-client-application
