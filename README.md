@@ -130,7 +130,17 @@ Use a string to identify the main contents. Try to use a name that is not depend
 - **bad**: `semgit-web-www-semgit-org`
 - **good**: `semgit-web-corporate-website`
 
-The reason `www-semgit-org` is bad is because it may require a Git repository name change when the url of the website changes. Use a name that is not likely to change when external factors (such as a URL) change.
+Avoid `www-semgit-org` because it may require a Git repository name change when the url of the website changes. Use a name that is not likely to change due to external factors.
+
+## FAQ
+
+##### If it's best not to use URL's in Git repository names, how can I quickly locate a repository in GitHub when I only know the website's name?
+To optimize search results in sites like GitHub, you can specify the website url in the GitHub repository description. This allows others to quickly locate the correct repository. For example:
+
+- GitHub repository name: `semgit-web-corporate-website`
+- GitHub repository description: "Website hosted on http://www.semgit.org"
+
+When searching for "semgit.org" in GitHub, the correct repository will shop up. And when the URL of the website changes, no repository name change is required. You can just update the repository description in GitHub.
 
 
 
