@@ -10,7 +10,7 @@ When adding Git repositories to a Git account, repository naming can quickly bec
 - locating existing repositories becomes cumbersome
 - identifying repositories becomes hard
 
-A lack of consistency can cause a lot of headaches and loss of time and money.
+A lack of consistency can cause a lot of headaches and a serious loss of time and money, especially in organizations with a large number of repositories and team members.
 
 Semantic naming attempts to resolve these issues.
 
