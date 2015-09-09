@@ -1,22 +1,24 @@
 # Semantic Git Repository Naming 0.1.0
 
-## Summary
+When adding Git repositories to a Git account, repository naming can quickly become a mess:
 
-Given a PREFIX-TARGET-DESCRIPTION Git repository name, interpret:
+- coming up with meaningful names for new repositories becomes challenging
+- locating existing repositories becomes cumbersome
+- identifying repositories becomes hard
 
-- PREFIX as the organization or user identifier
-- TARGET as the target platform or audience
-- DESCRIPTION as the description of the contents
-
-## Why use semantic names?
-
-When the number of Git repositories in an account grows, it becomes:
-
-- harder to come up with meaningful names for new repositories
-- harder to locate existing repositories
-- harder to identify repositories
+A lack of consistency can cause a lot of headaches and loss of time and money.
 
 Semantic naming attempts to resolve these issues.
+
+## Anatomy of a SemGit repository name
+
+Given a `prefix-target-description` Git repository name, interpret:
+
+- `prefix` as the organization or user identifier
+- `target` as the target platform or audience
+- `description` as the description of the contents
+
+Only lowercase characters and hyphens are used.
 
 ## Quick examples
 
@@ -37,6 +39,9 @@ semgit/semgit-go-private-api
 # Yeoman generators
 semgit/semgit-yeoman-generator-contract
 semgit/semgit-yeoman-generator-web-application
+
+# WinRT application
+semgit/semgit-winrt-client-application
 ```
 
 ## The PREFIX part
