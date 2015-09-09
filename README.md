@@ -84,6 +84,8 @@ dogs/blog              --> me/blog-1
 
 #### With SemGit
 
+The original repository names are retained:
+
 ```bash
 cats/cats-web-blog     --> me/cats-web-blog
 dogs/dogs-web-blog     --> me/dogs-web-blog
