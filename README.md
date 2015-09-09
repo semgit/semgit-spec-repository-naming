@@ -22,28 +22,46 @@ Given a `prefix-target-description` Git repository name, interpret:
 
 Only lowercase characters and hyphens are used.
 
-## Quick examples
+## Quick example
+
+#### Without SemGit
 
 ```bash
 # Websites
-semgit/semgit-web-jekyll-blog
-semgit/semgit-web-ghost-developer-blog
-semgit/semgit-web-corporate-website
+blog
+blog-2
+website
 
 # Node applications
-semgit/semgit-node-deployment-cli
-semgit/semgit-node-web-server
+deploymentcli
+web_server
 
 # Go applications
-semgit/semgit-go-public-api
-semgit/semgit-go-private-api
-
-# Yeoman generators
-semgit/semgit-yeoman-generator-contract
-semgit/semgit-yeoman-generator-web-application
+public-api
+private-api
 
 # WinRT application
-semgit/semgit-winrt-client-application
+clientApplication
+```
+
+With SemGit
+
+```bash
+# Websites
+semgit-web-jekyll-blog
+semgit-web-ghost-developer-blog
+semgit-web-corporate-website
+
+# Node applications
+semgit-node-deployment-cli
+semgit-node-web-server
+
+# Go applications
+semgit-go-public-api
+semgit-go-private-api
+
+# WinRT application
+semgit-winrt-client-application
 ```
 
 ## The PREFIX part
