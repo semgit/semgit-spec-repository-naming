@@ -12,7 +12,7 @@ A lack of consistency can cause a lot of headaches and loss of time and money.
 
 Semantic naming attempts to resolve these issues.
 
-## The solution
+## The proposed solution
 
 Given a `prefix-target-description` Git repository name, interpret:
 
