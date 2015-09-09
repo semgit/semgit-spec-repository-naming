@@ -1,5 +1,7 @@
 # Semantic Git Repository Naming 0.1.0
 
+## The problem
+
 When adding Git repositories to a Git account, repository naming can quickly become a mess:
 
 - coming up with meaningful names for new repositories becomes challenging
@@ -10,7 +12,7 @@ A lack of consistency can cause a lot of headaches and loss of time and money.
 
 Semantic naming attempts to resolve these issues.
 
-## Anatomy of a SemGit repository name
+## The solution
 
 Given a `prefix-target-description` Git repository name, interpret:
 
