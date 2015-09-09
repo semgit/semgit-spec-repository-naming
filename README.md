@@ -142,5 +142,7 @@ To optimize search results in sites like GitHub, you can specify the website url
 
 When searching for "semgit.org" in GitHub, the correct repository will shop up. And when the URL of the website changes, no repository name change is required. You can just update the repository description in GitHub.
 
+## License
 
+[Creative Commons](http://creativecommons.org/licenses/by/3.0/).
 
