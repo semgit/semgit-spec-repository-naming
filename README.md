@@ -75,34 +75,19 @@ This is useful when forking repositories.
 
 #### Without SemGit
 
-```bash
-cats/blog
-dogs/blog
-```
-
-When forking these repositories, they become:
+The repository names are changed during the fork process to prevent name collisions:
 
 ```bash
-me/blog
-me/blog-1
+cats/blog              --> me/blog
+dogs/blog              --> me/blog-1
 ```
-
-losing all semantic value.
 
 #### With SemGit
 
 ```bash
-cats/cats-web-blog
-dogs/dogs-web-blog
+cats/cats-web-blog     --> me/cats-web-blog
+dogs/dogs-web-blog     --> me/dogs-web-blog
 ```
-
-When forking these repositories, they become:
-
-```bash
-me/cats-web-blog
-me/dogs-web-blog
-```
-retaining all semantic value.
 
 #### How?
 
