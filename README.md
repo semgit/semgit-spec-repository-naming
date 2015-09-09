@@ -142,6 +142,12 @@ To optimize search results in sites like GitHub, you can specify the website url
 
 When searching for "semgit.org" in GitHub, the correct repository will shop up. And when the URL of the website changes, no repository name change is required. You can just update the repository description in GitHub.
 
+## Author
+
+The SemGit specification is authored by [Jurgen Van de Moere](http://www.jvandemo.com).
+
+If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/semgit/semgit-spec-repositories/issues).
+
 ## License
 
 [Creative Commons](http://creativecommons.org/licenses/by/3.0/).
