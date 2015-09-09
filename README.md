@@ -1,4 +1,6 @@
-# Semantic Git Repository Naming 0.1.0
+# SemGit Repository Naming
+
+Specification for Semantic Git Repository Naming.
 
 ## The problem
 
